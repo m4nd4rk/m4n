@@ -44,3 +44,44 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
   
+
+# Site Author
+author:
+  name             : "Abhijeet"
+  avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Infosec Student, OSCP"
+  location         : "USA"
+  email            :
+  links:
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: mailto:butter0verflow@gmail.com
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/butter0verflow"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/butter0verflow"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://butter0verflow.github.io"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url: 
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/butter0verflow"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+    #  url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/butter0verflow"
+
