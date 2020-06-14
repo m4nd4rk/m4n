@@ -1,3 +1,12 @@
 
-theme: jekyll-theme-cayman
 
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "butter 0verflow"
+title_separator          : "-"
+name                     : "butter 0verflow"
+description              : "Just another personal blog"
