@@ -6,7 +6,122 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "butter 0verflow"
+title                    : "m4nd4rk"
 title_separator          : "-"
-name                     : "butter 0verflow"
+name                     : "m4nd4rk"
 description              : "Just another personal blog"
+url                      : "https://m4nd4rk.github.io"
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : m4nd4rk # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true #, false (default)
+search_full_content      : true #, false (default)
+search_provider          : lunr # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+#google_site_verification : "ox1qJPBkx7xFsuXMOqaUGG9HizPx_ZX5KhRbrwtayqw"
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+
+category-list: [oscp, htb, ctf, misc]
+# Social Sharing
+twitter:
+  username               : m4nd4rk
+facebook:   
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social: manan
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+#analytics:
+  #provider               : "google" # false (default), "google", "google-universal", "custom"
+  #google:
+    #tracking_id          : "UA-154556861-1"
+    #anonymize_ip         : false # true, false (default)
+
+
+# Site Author
+author:
+  name             : "Manan"
+  avatar           : "/assets/manan.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Infosec Student, OSCP"
+  location         : "INDIA"
+  email            :
+  links:
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: mailto:butter0verflow@gmail.com
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/m4nd4rk"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/m4nd4rk"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://m4nd4rk.github.io"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url: 
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/m4nd4rk"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+    #  url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/m4nd4rk"
